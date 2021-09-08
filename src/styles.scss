@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  font-family: "Bebas Neue";
+  color: rgb(126, 185, 240);
+  background-color: rgb(255, 255, 255);
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px !important;
+}
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
