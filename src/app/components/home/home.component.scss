@@ -1,0 +1,12 @@
+.home {
+  text-align: center;
+  width: 90vw;
+}
+.container {
+  width: inherit;
+  flex-wrap: wrap;
+  float: left;
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+}

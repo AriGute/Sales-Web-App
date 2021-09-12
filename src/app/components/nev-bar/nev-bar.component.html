@@ -2,7 +2,9 @@
   <div>
     <app-nev-bar-button
       *ngFor="let item of someList"
-      [text]="item"
+      [text]="item.text"
+      [btnColor]="item.color"
+      [path]="item.path"
     ></app-nev-bar-button>
   </div>
 </div>

@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class NevBarButtonComponent implements OnInit {
   @Input() text?: string;
-  @Input() path?: string;
+  @Input() path?: String;
   @Input() btnColor?: string = 'green';
 
   constructor() {}
